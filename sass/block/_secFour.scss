@@ -1,0 +1,53 @@
+.secFour h4 {
+  font-size: 24px;
+  margin-left: 40px;
+  margin-bottom: 95px;
+}
+
+.circle-line {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-bottom: 67px;
+}
+
+.oval {
+  background-color: #fefcf7;
+  width: 31px;
+  height: 31px;
+  border-radius: 50px;
+  border: 2px solid #0e8784;
+}
+
+.liner {
+  background-color: #fdd6ba;
+  width: 385px;
+  height: 1px;
+  border: 2px solid #fdd6ba;
+}
+
+.nlist {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 64px;
+}
+
+.nlist p {
+  width: 285px;
+}
+
+.nlist h2 {
+  font-size: 72px;
+  color: #fdd6ba;
+}
+
+.secFour a {
+  margin-left: 55px;
+}
+
+.secFour {
+  margin-bottom: 200px;
+}

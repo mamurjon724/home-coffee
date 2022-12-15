@@ -1,0 +1,43 @@
+.pack {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 30px;
+    position: absolute;
+    margin-left: 60px;
+    top: 925px;
+}
+
+.pack div {
+    text-align: center;
+    display: block;
+}
+
+.pack div h4 {
+    font-size: 24px;
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.pack div p {
+    width: 255px;    
+}
+
+.secTwo h2 {
+    font-size: 150px;
+    text-align: center;
+    color: #83888F;
+    position: relative;
+    opacity: 35%;
+    background-image: linear-gradient(#83888F, white);
+    background-clip: text;
+    color: transparent;
+}
+
+.secTwo {
+    margin-bottom: 400px;
+}

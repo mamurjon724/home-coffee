@@ -1,0 +1,39 @@
+footer {
+  background-color: #2c343e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 33px;
+}
+
+footer a {
+  color: #83888f;
+}
+
+ul li a:hover {
+  color: #e2dedb;
+}
+
+ul li a:active {
+  color: black;
+  text-decoration: underline;
+}
+
+.icons li a:hover {
+  filter: opacity(0.6) drop-shadow(0 0 rgb(161, 106, 66));
+}
+
+.icons li a:active {
+  filter: opacity(0.6) drop-shadow(0 0 red);
+}
+
+.icons li a:focus {
+  filter: opacity(0.6) drop-shadow(0 0 orange);
+}

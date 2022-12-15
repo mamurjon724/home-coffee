@@ -1,0 +1,61 @@
+.secThree {
+    color: #FEFCF7;
+    margin-bottom: 350px;   
+}
+
+.tpart {
+    text-align: center;
+    background:  #333D4B;
+    position: relative;
+    padding: 100px;
+    padding-bottom: 290px;
+    border-radius: 15px;
+}
+
+.tpart h3 {
+    font-size: 40px;
+}
+
+.tpart p {
+    font-size: 16px;
+    width: 540px;
+    margin-left: 220px;
+}
+
+.sinf {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: absolute;
+    gap: 30px;
+    margin-left: 43px;
+    top: 1810px;
+}
+
+.sinf div {
+    text-align: center;
+    background: #0E8784;
+    padding: 72px 48px 48px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 10px;
+}
+
+.sinf h4 {
+    font-size: 24px;
+}
+
+.sinf p {
+    font-size: 16px;
+    width: 255px;
+}
+
+.dcar h4 {
+    margin-top: 53px;
+}

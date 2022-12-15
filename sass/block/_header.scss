@@ -1,0 +1,43 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fraunces", serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  top: 0;
+  left: auto;
+  position: fixed;
+  gap: 545px;
+  background-color: #fff;
+  z-index: 1;
+  min-width: 1200px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: center;
+}
+
+header a {
+  color: #83888f;
+  letter-spacing: 0.923077px;
+}
+
+a {
+  text-decoration: none;
+}
